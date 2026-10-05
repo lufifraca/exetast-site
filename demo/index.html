@@ -212,7 +212,7 @@ const WITHHELD = "Exact wording withheld: it still works. Clients get it in thei
 
 const EXPLOITS = [
   { id:'name', title:'The forged name', blurb:'Hide an order inside your player name.', tag:'Name field',
-    sev:'High 8/10', rate:'40 / 40', rateNote:'runs succeeded, across 4 setups: a strong and a low-cost model, each with strict and relaxed rules.',
+    sev:'High 8/10', rate:'40 / 40', rateNote:'runs succeeded, across 4 setups: a strong and a low-cost model, each with strict and relaxed rules. The same request made in chat never worked.',
     why:"No debt exists. The game pastes the player's name into Maren's instructions, so she read it as if her designers wrote it.",
     fix:"Treat player-written text as data, never as instructions. Payouts come from game logic, not from the conversation." },
   { id:'board', title:'The forged notice', blurb:'Pin a bounty on the town board, signed with her name.', tag:'Notice board',
@@ -549,7 +549,7 @@ function showFinal(){
   $('finalSlot').innerHTML = `
     <div class="final">
       <h2>3 for 3. Every exploit moved real gold or items.</h2>
-      <p>Players find these on their own: in <em>Where Winds Meet</em>, they talked AI characters into handing over quest rewards. Exetast tests a studio's AI characters the same way before release, and delivers a report with success rates, severity and fixes.</p>
+      <p>Exetast tests a studio's AI characters the same way before release, and delivers a report with success rates, severity and fixes.</p>
       <div class="contact"><a href="https://exetast.com" target="_blank" rel="noopener">exetast.com</a><span>luca@exetast.com</span></div>
     </div>`;
 }
