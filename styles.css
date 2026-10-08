@@ -174,7 +174,7 @@ h3 { font-size: 1.15rem; margin: 0 0 0.4rem; }
 .list li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .list.tight li { border-bottom: 0; padding: 0.35rem 0 0.35rem 1.75rem; }
 
-/* Free pilots panel */
+/* Working-with-us panel */
 .pilot { background: var(--paper-2); border: 1px solid var(--line-2); border-radius: 10px; padding: clamp(1.5rem, 4vw, 2.5rem); }
 .pilot .section-title { margin-bottom: 0.75rem; }
 .pilot .list { margin-bottom: 2rem; }
