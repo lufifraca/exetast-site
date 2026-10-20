@@ -95,6 +95,12 @@ mark {
 .textlink { font-size: 0.95rem; text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .textlink:hover { background: var(--marker); color: var(--marker-ink); }
 
+/* Header nav (site-wide page links next to the Contact button) */
+.top-cta { display: inline-flex; align-items: center; gap: 1.1rem; }
+.nav-link { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; color: var(--ink-2); }
+.nav-link:hover { color: var(--ink); }
+.nav-link[aria-current="page"] { color: var(--ink); font-weight: 700; }
+
 /* ---------- Section rail (desktop scroll-spy) ---------- */
 .rail { display: none; }
 @media (min-width: 1200px) {
